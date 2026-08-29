@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "preact": "^10.27.2",
     "react": "^19.2.1",
     "react-avatar-editor": "^14.0.0",

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import AvatarEditor from 'react-avatar-editor';
 import { useDropzone } from 'react-dropzone';
+import { Analytics } from '@vercel/analytics/react';
 import './app.css';
 
 // Frame twibbon (ada di folder public)
@@ -455,6 +456,7 @@ const App = () => {
 
       {/* TOAST NOTIFIKASI */}
       {toast && <div className="toast">{toast}</div>}
+      <Analytics />
     </div>
   );
 };
